@@ -1,0 +1,30 @@
+#principal{
+  position: relative;
+  width: 90%;
+  height: 300px;
+  border: 2px solid black;
+}
+
+#izq{
+  position: absolute;
+  top: 50px;
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#centro{
+  position: absolute;
+  width: 1px;
+  height: 200px;
+  border: 1px solid
+}
+
+#der{
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+}
