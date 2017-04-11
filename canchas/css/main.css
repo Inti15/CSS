@@ -1,3 +1,4 @@
+/*ESTILOS GENERALES*/
 body{
   /*background-image:url("fondo.jpg");
   /*background-repeat: no-repeat;*/
@@ -10,88 +11,69 @@ body{
 
   .cancha{
     position: relative;
-    /*left: 30%*/
     margin-top: 3%;
     margin-left: 30%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     width: 600px;
     height: 300px;
     border: 2px solid black;
   }
-  /*ESTILO CANCHA SOCCER*/
 
-  #izq{
+  .estiloForma{
     position: absolute;
-    top: 50px;
-    width: 100px;
-    height: 200px;
     border: 1px solid black;
   }
 
-  #centro{
-    position: absolute;
+  .tamForma{
+    width: 100px;
+    height: 200px;
+  }
+
+  .alineaCentro{
     left: 50%;
-    /*width: 1px;*/
     height: 300px;
-    border: 1px solid black;
+  }
+
+  .tamCirculo{
+    width: 50px;
+    height: 100px;
+  }
+
+  /*ESTILO CANCHA SOCCER*/
+  #izq{
+    top: 50px;
   }
 
   #circuloIzq{
-    position: absolute;
     left: 100px;
     top: 33%;
-    width: 50px;
-    height: 100px;
     border-radius: 0 100px 100px 0;
-    border: 1px solid black;
   }
 
   #circuloCentro{
-    position: absolute;
     top: 30%;
     left: 42%;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 1px solid black;
   }
 
   #circuloDer{
-    position: absolute;
     right: 17%;
     top: 33%;
-    width: 50px;
-    height: 100px;
     border-radius: 100px 0 0 100px;
-    border: 1px solid black;
   }
 
   #der{
-    position: absolute;
     top: 50px;
     right: 0;
-    width: 100px;
-    height: 200px;
-    border: 1px solid black;
   }
 
   /*ESTILO CANCHA BASKET*/
 
     #izqB{
-      position: absolute;
       top: 50px;
-      width: 100px;
-      height: 200px;
       border-radius: 0 100px 100px 0;
-      border: 1px solid black;
-    }
-
-    #centroB{
-      position: absolute;
-      left: 50%;
-      /*width: 1px;*/
-      height: 300px;
-      border: 1px solid black;
     }
 
     #trapecioIzq{
@@ -106,33 +88,27 @@ body{
     }
 
     #circuloIzqB{
-      position: absolute;
       left: 9%;
       top: 43%;
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      border: 1px solid black;
     }
 
     #circuloCentroB{
-      position: absolute;
       top: 30%;
       left: 42%;
       width: 100px;
       height: 100px;
       border-radius: 50%;
-      border: 1px solid black;
     }
 
     #circuloDerB{
-      position: absolute;
       right: 8%;
       top: 43%;
       width: 40px;
       height: 40px;
       border-radius: 50%;
-      border: 1px solid black;
     }
     #trapecioDer{
       position: absolute;
@@ -147,52 +123,31 @@ body{
     }
 
     #derB{
-      position: absolute;
       top: 50px;
       right: 0;
-      width: 100px;
-      height: 200px;
       border-radius: 100px 0 0 100px;
-      border: 1px solid black;
     }
 
     /*ESTILO CANCHA TENIS*/
 
     #central{
-      position: absolute;
       top: 50px;
       width: 600px;
       height: 200px;
-      border: 1px solid black;
-    }
-
-    #izqT{
-      position: absolute;
-      width: 100px;
-      height: 200px;
-      border: 1px solid black;
     }
 
     #centroT{
-      position: absolute;
       left: 50%;
       /*width: 1px;*/
       height: 200px;
-      border: 1px solid black;
     }
 
     #horizontalT{
-      position: absolute;
       left: 17%;
       top: 50%;
       width: 394px;
-      border: 1px solid black;
     }
 
     #derT{
-      position: absolute;
       right: 0;
-      width: 100px;
-      height: 200px;
-      border: 1px solid black;
     }
