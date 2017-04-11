@@ -6,17 +6,20 @@ var canchaTenis = document.getElementById("canchaTen");
 function mostrarCancha(id) {
   switch (id) {
     case "soccer":
-      canchaSoccer.setAttribute("hidden","true");
       canchaSoccer.removeAttribute("hidden");
+      canchaBasket.setAttribute("hidden","true");
+      canchaTenis.setAttribute("hidden","true");
       break;
     case "basket":
-      canchaBasket.setAttribute("hidden","true");
       canchaBasket.removeAttribute("hidden");
+      canchaSoccer.setAttribute("hidden","true");
+      canchaTenis.setAttribute("hidden","true");
       break;
 
     case "tenis":
-    canchaTenis.setAttribute("hidden","true");
     canchaTenis.removeAttribute("hidden");
+    canchaSoccer.setAttribute("hidden","true");
+    canchaBasket.setAttribute("hidden","true");
     break;
 
     default:

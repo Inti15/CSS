@@ -9,19 +9,29 @@ body{
 
   }
 
-  .cancha{
+  .estiloCancha{
     position: relative;
     margin-top: 3%;
     margin-left: 30%;
     margin-bottom: 5%;
+    width: 630px;
+    height: 330px;
+    border: 2px solid #7CB342;
+    background-color: #33691E;
+  }
+
+  .cancha{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 15px;
     width: 600px;
     height: 300px;
-    border: 2px solid black;
+    border: 3px solid white;
   }
 
   .estiloForma{
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid white;
   }
 
   .tamForma{
@@ -40,6 +50,9 @@ body{
   }
 
   /*ESTILO CANCHA SOCCER*/
+  #soccerCancha{
+    background-color:#7CB342;
+  }
   #izq{
     top: 50px;
   }
@@ -70,6 +83,9 @@ body{
   }
 
   /*ESTILO CANCHA BASKET*/
+  #basketCancha{
+    background-image: url("duela.jpg");
+  }
 
     #izqB{
       top: 50px;
@@ -129,6 +145,9 @@ body{
     }
 
     /*ESTILO CANCHA TENIS*/
+    #tenisCancha{
+      background-color: #78909C;
+    }
 
     #central{
       top: 50px;
