@@ -5,28 +5,45 @@ body{
   /*background-size: cover;
   background-position: top center;*/
   text-align: center;
-  font-family: verdana;
-
+  font-family: 'Days One', sans-serif;
   }
 
+.boton{
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #00838F;
+}
   .estiloCancha{
     position: relative;
     margin-top: 3%;
     margin-left: 30%;
     margin-bottom: 5%;
-    width: 630px;
-    height: 330px;
+    width: 650px;
+    height: 350px;
     border: 2px solid #7CB342;
     background-color: #33691E;
   }
 
   .cancha{
     position: relative;
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
     width: 600px;
     height: 300px;
     border: 3px solid white;
+  }
+  
+  .balon{
+    float: left;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
   }
 
   .estiloForma{
@@ -50,6 +67,9 @@ body{
   }
 
   /*ESTILO CANCHA SOCCER*/
+  #canchaS{
+    cursor: url("playerSoccer.png"), auto;
+  }
   #soccerCancha{
     background-color:#7CB342;
   }
@@ -83,6 +103,9 @@ body{
   }
 
   /*ESTILO CANCHA BASKET*/
+  #canchaB{
+    cursor: url("playerBasket.png"), auto;
+  }
   #basketCancha{
     background-image: url("duela.jpg");
   }
@@ -97,7 +120,8 @@ body{
       top: 41%;
       /*width: -10px;*/
       height: 34px;
-      border-left: 80px solid grey;
+      border-left: 80px solid #FFECB3;
+      border-color: rgba(255, 236, 179, 0.7);
       /*border-right: 20px solid transparent;*/
       border-bottom: 10px solid transparent;
       border-top: 10px solid transparent;
@@ -132,7 +156,8 @@ body{
       top: 41%;
       /*width: -10px;*/
       height: 34px;
-      border-right: 80px solid grey;
+      border-right: 80px solid #FFECB3;
+      border-color: rgba(255, 236, 179, 0.7);
       /*border-right: 20px solid transparent;*/
       border-bottom: 10px solid transparent;
       border-top: 10px solid transparent;
@@ -145,8 +170,11 @@ body{
     }
 
     /*ESTILO CANCHA TENIS*/
+    #canchaT{
+      cursor: url("playerTenis.png"), auto;
+    }
     #tenisCancha{
-      background-color: #78909C;
+      background-color: #5C6BC0;
     }
 
     #central{

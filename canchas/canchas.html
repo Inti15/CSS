@@ -4,18 +4,22 @@
     <meta charset="utf-8">
     <title>Canchas</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
   </head>
   <body>
     <!--Sección principal de la página  -->
     <h1> 🎾 🏀 ⚽ ELIGE TU CANCHA ⚽ 🏀 🎾</h1>
-    <button id="soccer" onclick="mostrarCancha(this.id)"> SOCCER </button>
-    <button id="basket" onclick="mostrarCancha(this.id)"> BASKETBALL </button>
-    <button id="tenis" onclick="mostrarCancha(this.id)"> TENIS </button>
+    <button id="soccer" class="boton" onclick="mostrarCancha(this.id)"> SOCCER </button>
+    <button id="basket" class="boton" onclick="mostrarCancha(this.id)"> BASKETBALL </button>
+    <button id="tenis" class="boton" onclick="mostrarCancha(this.id)"> TENIS </button>
     <!-- Sección de la cancha de Soccer -->
     <section id="canchaSoc" hidden="true">
         <h2> ⚽ SOCCER ⚽ </h2>
-        <div class="estiloCancha">
+        <h5>Mueve el cursor para jugar ;) (se muy preciso)</h5>
+
+        <div id="canchaS" class="estiloCancha" >
           <div id="soccerCancha" class="cancha">
+            <div class="balon" onmouseover="mover(this);"></div>
             <div id="izq" class="estiloForma tamForma"></div>
             <div id="centroS" class="estiloForma alineaCentro"></div>
             <div id="circuloIzq" class="estiloForma tamCirculo"></div>
@@ -28,8 +32,10 @@
     <!--Sección de la cancha de basket  -->
     <section id="canchaBask" hidden="true">
         <h2> 🏀 BASKETBALL 🏀</h2>
-        <div class="estiloCancha">
+        <h5>Mueve el cursor para jugar ;)  (se muy preciso)</h5>
+        <div id="canchaB" class="estiloCancha">
           <div id="basketCancha" class="cancha">
+            <div class="balon" onmousemove="mover(this);"></div>
             <div id="izqB" class="estiloForma tamForma"></div>
             <div id="trapecioIzq"></div>
             <div id="centroB" class="estiloForma alineaCentro"></div>
@@ -44,8 +50,10 @@
     <!--Sección de la cancha de tenis -->
     <section id="canchaTen" hidden="true">
         <h2>🎾 TENIS 🎾 </h2>
-        <div  class="estiloCancha">
+        <h5>Mueve el cursor para jugar ;)  (se muy preciso)</h5>
+        <div  id="canchaT" class="estiloCancha">
           <div id="tenisCancha" class="cancha">
+            <div class="balon" onmouseover="mover(this);"></div>
             <div id="central" class="estiloForma">
               <div id="izqT" class="estiloForma tamForma"></div>
               <div id="centroT" class="estiloForma"></div>

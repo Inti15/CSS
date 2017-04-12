@@ -27,3 +27,18 @@ function mostrarCancha(id) {
 
   }
 }
+
+function mover(balon) {
+  min = 0;
+  max = 300;
+  var posX = parseInt(Math.random() * (max-min) + min);
+  var posY = parseInt(Math.random() * (max-min) + min);
+
+  balon.removeAttribute("float");
+  // balon.style.backgroundColor = "white";
+  // balon.style.cursor = "pointer";
+  balon.style.marginTop = posY + "px";
+  balon.style.marginLeft = posX + "px";
+  balon.style.transition = 1 +"s";
+
+}
