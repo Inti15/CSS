@@ -19,7 +19,7 @@ header{
   padding: 14px 70px;
   overflow: auto;
 }
-/**/
+/*Estilos sección home*/
 #home{
   background-image: url(../img/bg-home.jpg); /*Muestra imagen de portada*/
   background-position: center;
@@ -50,7 +50,7 @@ header{
   display: inline-block;
   font-size: 14px;
 }
-
+/*Estilos sección Services*/
 #services{
   background-color: #F17C72;
   text-align: center;
@@ -61,17 +61,18 @@ header{
 .box-services{
   display: inline-block;
   width: 30%;/*Ancho de las cajas*/
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .text-services{
   font-size: 35px;
   letter-spacing: 2px; /*Espacio entre cada letra*/
 }
-
+/*Estilos sección work*/
 #work{
   text-align: center;
 }
+
 .box-work{
   display: inline-block;
   width: 30%;
@@ -79,5 +80,19 @@ header{
 }
 
 footer{
+    height: 70px;
+    padding: 10px;
     text-align: center;
+    color: white;
+    background-color: gray;
 }
+
+/* Estilos de la segunda parte del ejercicio*/
+
+/*.box-work img:hover {*/
+  /*transform: scale(5) translate(50px);
+  padding: 3px;
+  margin: 10px 50px;
+  border-width: 10px 50px;
+  border-style: solid;
+  border-color: rgba(29, 233, 199, 0.5);*/
