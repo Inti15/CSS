@@ -1,0 +1,10 @@
+.bloque{
+  display: block;
+  height: 50px;
+  background-color: #FFEB3B;
+  font-family: verdana;
+}
+
+.bloque2{
+  background-color: #00BFA5;
+}
