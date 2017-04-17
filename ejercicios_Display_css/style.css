@@ -5,9 +5,10 @@
   left: 40%;
 }
 .bloque{
-  display: inline;/*Muestra los div en linea no toma en cuenta width ni height*/
-  padding: 10px;
-  margin: 10px;
+  display: inline-block;/*Muestra los div en linea*/
+  width: 170px;
+  padding: 0px 0px 20px 0px;
+  margin: 5px;
   background-color: #FFEB3B;
   font-family: verdana;
 }
