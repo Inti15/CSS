@@ -1,18 +1,37 @@
 /*Estilo div principal para centrar los div contenidos*/
 .principal{
   position: relative;
-  top: 200px;
-  left: 40%;
-}
-.bloque{
-  display: inline-block;/*Muestra los div en linea*/
-  width: 170px;
-  padding: 0px 0px 20px 0px;
-  margin: 5px;
-  background-color: #FFEB3B;
-  font-family: verdana;
+  top: 30px;
+  left: 45%;
 }
 
+.bloque{
+  display: inline-block;/*Muestra los div en linea*/
+  width: 100px;
+  height: 100px;
+  padding: 0px 0px 20px 0px;
+  margin: 5px;
+  background-color: #4DB6AC;
+}
+
+
+.linea{
+  display: block;
+  background-color: #EA80FC;
+}
+
+.principal2{
+  display: block;
+  width: 420px;
+  height: 130px;
+  background-color:
+}
+
+.trio{
+  display: inline-block;
+  margin: 15px;
+  background-color: #F8BBD0;
+}
 .bloque2{
   background-color: #00BFA5;
 }
