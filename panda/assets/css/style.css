@@ -26,8 +26,11 @@ a:hover{
 
 /*Estilos imagenes*/
 #fotos{
+  visibility: visible;
+}
+.posicion{
   position: relative;
-  left: 10px;
+  left: 10%;
 }
 .img{
   display: inline-block;
@@ -40,3 +43,16 @@ img{
 }
 
 /*Estilos sección central*/
+#central{
+  left: 25%;
+}
+.btn{
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  margin: 30px;
+  border-radius: 5px;
+  background-color: #E91E63;
+}
