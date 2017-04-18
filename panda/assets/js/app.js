@@ -31,7 +31,19 @@ function mostrar(obj) {
   }
 }
 
-// Función para restaurar fotografías
+// Función para cerrar fotografías
+var cerrar = document.getElementsByClassName("cerrar");
+for(var i = 0; i<cerrar.length; i++){
+  cerrar[i].addEventListener("click", cerrarFnc);
+}
+
+function cerrarFnc() {
+  var padre = this.parentElement;
+  padre.style.display="none";
+}
+// Función para restaurar las fotografiás
 function restaurar() {
-  console.log("Restaurar");
+  for(var i = 0; i<cerrar.length; i++){
+    cerrar[i].parentElement.style.display = "inline-block";
+  }
 }
