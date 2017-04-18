@@ -1,37 +1,30 @@
 var textoIzq = document.getElementById("izq");
 var textoDer = document.getElementById("der");
-//
+var cont = 0;
+//Función que verifica los links
 function verificaClick(event) {
-  var obj = event.target;
-  console.log(obj);
-  if(event.detail == 1){
-    console.log("ocultar");
-
-    // ocutar();
+  cont++;//Contador que aumenta cada que entra a la función
+  var obj = event.target;//Obtiene el elemento que detona el evento
+  if(cont%2 != 0){
+    ocultar(obj);
   }
-  else if (event.detail == 2) {
-    console.log("mostrar");
-    // mostrar();
+  else if (cont%2 == 0) {
+    mostrar(obj);
   }
-
 }
-
 // Función para ocultar elementos
-function ocultar(id) {
-  if(id == 1){//Caso boton Origen
-    console.log("ocultar");
+function ocultar(obj) {
+  if(obj.id == 1){//Caso boton Origen
     textoIzq.style.visibility = "hidden";
   }
-  else if(id == 2){//Caso boton Exhibición
+  else if(obj.id == 2){//Caso boton Exhibición
     textoDer.style.visibility = "hidden";
   }
 }
 // Función para mostrar el texto
-function mostrar(id) {
-  if(id ==1 && textoIzq.style.visibility == "hidden"){//Caso boton Origen
-    console.log("mostrar");
-    textoIzq.style.visibility = "visible";
-
+function mostrar(obj) {
+  if(obj.id ==1){//Caso boton Origen
+    textoIzq.style.visibility = "visible"
   }
   else{//Caso boton Exhibición
     textoDer.style.visibility = "visible";
@@ -40,5 +33,5 @@ function mostrar(id) {
 
 // Función para restaurar fotografías
 function restaurar() {
-
+  console.log("Restaurar");
 }
