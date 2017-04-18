@@ -56,3 +56,17 @@ img{
   border-radius: 5px;
   background-color: #E91E63;
 }
+
+/*Estilos sección texto*/
+
+#texto{
+  width: 80%;
+  color: white;
+  font-family: verdana;
+  column-count: 2;
+  text-align: justify;
+}
+
+p{
+  line-height: 1.3;
+}
