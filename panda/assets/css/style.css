@@ -35,6 +35,7 @@ a:hover{
 .img{
   display: inline-block;
 }
+
 img{
   width: 200px;
   height:150px;
@@ -46,10 +47,11 @@ img{
 #central{
   left: 25%;
 }
+
 .btn{
-  display: inline-block;
   width: 150px;
   height: 30px;
+  padding-top: 5px;
   text-align: center;
   color: white;
   margin: 30px;
